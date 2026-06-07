@@ -1,0 +1,99 @@
+import type { INodeProperties } from 'n8n-workflow';
+
+export const exchangeDescription: INodeProperties[] = [
+		{
+			"displayName": "Operation",
+			"name": "operation",
+			"type": "options",
+			"noDataExpression": true,
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Exchange"
+					]
+				}
+			},
+			"options": [
+				{
+					"name": "V 1",
+					"value": "V 1",
+					"action": "V 1",
+					"description": "",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/api/exchange/v1"
+						}
+					}
+				}
+			],
+			"default": ""
+		},
+		{
+			"displayName": "GET /api/exchange/v1",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Exchange"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Page",
+			"name": "page",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "page",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Exchange"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Limit",
+			"name": "limit",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "limit",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Exchange"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
+];
