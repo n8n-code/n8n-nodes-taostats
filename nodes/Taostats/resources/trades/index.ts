@@ -491,4 +491,29 @@ export const tradesDescription: INodeProperties[] = [
 				}
 			}
 		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Trades"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
 ];

@@ -409,6 +409,31 @@ export const otcDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Otc"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/otc/listing/history/v2",
 			"name": "operation",
 			"type": "notice",
@@ -762,6 +787,31 @@ export const otcDescription: INodeProperties[] = [
 					"property": "order",
 					"value": "={{ $value }}",
 					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Otc"
+					],
+					"operation": [
+						"V 2"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
 				}
 			},
 			"displayOptions": {

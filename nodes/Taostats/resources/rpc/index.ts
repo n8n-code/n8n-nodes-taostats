@@ -121,6 +121,31 @@ export const rpcDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Rpc"
+					],
+					"operation": [
+						"Http"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/rpc/ws/{target}",
 			"name": "operation",
 			"type": "notice",
@@ -155,6 +180,31 @@ export const rpcDescription: INodeProperties[] = [
 					"value": "finney_archive"
 				}
 			],
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Rpc"
+					],
+					"operation": [
+						"Ws"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [

@@ -97,6 +97,31 @@ export const validatorDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Validator"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "POST /api/dtao/validator/yield/latest/v1",
 			"name": "operation",
 			"type": "notice",
@@ -281,6 +306,31 @@ export const validatorDescription: INodeProperties[] = [
 					"propertyInDotNotation": false,
 					"type": "body",
 					"value": "={{ JSON.parse($value) }}"
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Validator"
+					],
+					"operation": [
+						"V 1 Post"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
 				}
 			},
 			"displayOptions": {
@@ -588,6 +638,31 @@ export const validatorDescription: INodeProperties[] = [
 					"property": "order",
 					"value": "={{ $value }}",
 					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Validator"
+					],
+					"operation": [
+						"V 2"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
 				}
 			},
 			"displayOptions": {

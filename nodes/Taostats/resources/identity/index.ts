@@ -163,4 +163,29 @@ export const identityDescription: INodeProperties[] = [
 				}
 			}
 		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Identity"
+					],
+					"operation": [
+						"V 1"
+					]
+				}
+			}
+		},
 ];

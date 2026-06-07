@@ -222,6 +222,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Account Balance Info"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/blocks",
 			"name": "operation",
 			"type": "notice",
@@ -291,6 +316,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Block Get Range"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/blocks/head",
 			"name": "operation",
 			"type": "notice",
@@ -298,6 +348,31 @@ export const liveDescription: INodeProperties[] = [
 				"theme": "info"
 			},
 			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Block Get Head"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -346,6 +421,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Block Get By Height"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/blocks/{height}/extrinsics-raw",
 			"name": "operation",
 			"type": "notice",
@@ -370,6 +470,31 @@ export const liveDescription: INodeProperties[] = [
 			"required": true,
 			"default": 0,
 			"type": "number",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Block Raw Get By Height"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -435,6 +560,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Extrinsic Get By Block And Index"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/node/transaction-pool",
 			"name": "operation",
 			"type": "notice",
@@ -454,6 +604,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Pool Get"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/node/version",
 			"name": "operation",
 			"type": "notice",
@@ -461,6 +636,31 @@ export const liveDescription: INodeProperties[] = [
 				"theme": "info"
 			},
 			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Version Info"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -497,6 +697,31 @@ export const liveDescription: INodeProperties[] = [
 			"required": true,
 			"default": "",
 			"type": "string",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Const Get All"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -562,6 +787,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Const Get By Id"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/pallets/{pallet_id}/events",
 			"name": "operation",
 			"type": "notice",
@@ -586,6 +836,31 @@ export const liveDescription: INodeProperties[] = [
 			"required": true,
 			"default": "",
 			"type": "string",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Event Get All"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -651,6 +926,31 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Event Get By Id"
+					]
+				}
+			}
+		},
+		{
 			"displayName": "GET /api/v1/live/pallets/{pallet_id}/storage",
 			"name": "operation",
 			"type": "notice",
@@ -675,6 +975,31 @@ export const liveDescription: INodeProperties[] = [
 			"required": true,
 			"default": "",
 			"type": "string",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Storage Get All"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -728,6 +1053,31 @@ export const liveDescription: INodeProperties[] = [
 			"required": true,
 			"default": "",
 			"type": "string",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Live"
+					],
+					"operation": [
+						"Storage Get By Id"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Api Key API Key",
+			"name": "security_api_key",
+			"type": "string",
+			"default": "",
+			"description": "API key for api_key (header: Authorization)",
+			"required": false,
+			"routing": {
+				"request": {
+					"headers": {
+						"Authorization": "={{ $value }}"
+					}
+				}
+			},
 			"displayOptions": {
 				"show": {
 					"resource": [
