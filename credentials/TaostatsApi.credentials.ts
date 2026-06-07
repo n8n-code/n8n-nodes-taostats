@@ -54,10 +54,13 @@ export class TaostatsApi implements ICredentialType {
 	};
 
 	test: ICredentialTestRequest = {
-		request: {
-			baseURL: '={{$credentials.url}}',
-			url: '/',
-			method: 'GET',
-		},
-	};
+			"request": {
+				"baseURL": "={{ $credentials.baseUrl }}",
+				"url": "/api/v1/live/node/version",
+				"method": "GET",
+				"headers": {
+					"Authorization": "={{ $credentials.api_key }}"
+				}
+			}
+		};
 }
