@@ -10,7 +10,7 @@ export class TaostatsApi implements ICredentialType {
 
 	displayName = 'taostats API';
 
-	icon: Icon = { light: 'file:../nodes/Taostats/taostats.svg', dark: 'file:../nodes/Taostats/taostats.dark.svg' };
+	icon: Icon = { light: 'file:../nodes/Taostats/taostats.png', dark: 'file:../nodes/Taostats/taostats.dark.png' };
 
 	documentationUrl = '';
 

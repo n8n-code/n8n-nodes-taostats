@@ -43,7 +43,7 @@ export class Taostats implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'taostats',
 		name: 'N8nDevTaostats',
-		icon: { light: 'file:./taostats.svg', dark: 'file:./taostats.dark.svg' },
+		icon: { light: 'file:./taostats.png', dark: 'file:./taostats.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
