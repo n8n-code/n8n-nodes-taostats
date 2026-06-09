@@ -41,14 +41,14 @@ import { transferDescription } from './resources/transfer';
 
 export class Taostats implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'taostats',
+		displayName: 'Taostats',
 		name: 'N8nDevTaostats',
 		icon: { light: 'file:./taostats.png', dark: 'file:./taostats.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'TaoStats official Bittensor block explorer and analytics platform for staking portfolio tracking and subnet discovery',
-		defaults: { name: 'taostats' },
+		description: 'TaoStats: Bittensor block explorer, analytics, staking, subnet discovery.',
+		defaults: { name: 'Taostats' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -228,8 +228,8 @@ export class Taostats implements INodeType {
 					"description": "Sidecar related endpoints"
 				},
 				{
-					"name": "Rpc",
-					"value": "Rpc",
+					"name": "RPC",
+					"value": "RPC",
 					"description": "RPC related endpoints"
 				},
 				{

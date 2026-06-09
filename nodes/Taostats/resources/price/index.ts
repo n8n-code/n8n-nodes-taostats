@@ -15,9 +15,9 @@ export const priceDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -43,7 +43,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -68,7 +68,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -93,7 +93,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -118,7 +118,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -142,7 +142,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -166,7 +166,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -200,13 +200,13 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -225,7 +225,7 @@ export const priceDescription: INodeProperties[] = [
 						"Price"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}

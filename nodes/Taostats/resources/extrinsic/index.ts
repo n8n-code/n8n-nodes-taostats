@@ -15,9 +15,9 @@ export const extrinsicDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -43,7 +43,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -85,7 +85,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -109,7 +109,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -134,7 +134,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -159,7 +159,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -184,7 +184,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -209,7 +209,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -233,7 +233,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -257,13 +257,13 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"default": "",
 			"type": "string",
@@ -281,7 +281,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -305,7 +305,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -330,7 +330,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -354,7 +354,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -378,7 +378,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -406,11 +406,11 @@ export const extrinsicDescription: INodeProperties[] = [
 					"value": "timestamp_desc"
 				},
 				{
-					"name": "Id Asc",
+					"name": "ID Asc",
 					"value": "id_asc"
 				},
 				{
-					"name": "Id Desc",
+					"name": "ID Desc",
 					"value": "id_desc"
 				},
 				{
@@ -444,13 +444,13 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -469,7 +469,7 @@ export const extrinsicDescription: INodeProperties[] = [
 						"Extrinsic"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}

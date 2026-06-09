@@ -15,9 +15,9 @@ export const statusDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -43,7 +43,7 @@ export const statusDescription: INodeProperties[] = [
 						"Status"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}

@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-taostats",
-  "version": "1.0.7",
-  "description": "TaoStats official Bittensor block explorer and analytics platform for staking portfolio tracking and subnet discovery",
+  "version": "1.0.8",
+  "description": "TaoStats: Bittensor block explorer, analytics, staking, subnet discovery.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-taostats",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "taostats"

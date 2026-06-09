@@ -53,47 +53,295 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Account | GET V 1 |
-| Accounting | GET V 1 |
-| Block | GET V 1 |
-| Call | GET V 1 |
-| Coingecko | GET V 1 |
-| Delegation | GET V 1 |
-| Dev Activity | GET V 1 |
-| Dev Changelog | GET Get Changelog |
-| Dtao | GET V 1 |
-| Erc 20 | GET V 1 |
-| Conviction | GET V 1 |
-| Contract Event | GET V 1 |
-| Event | GET V 1 |
-| Evm | GET V 1 |
-| Exchange | GET V 1 |
-| Hotkey | GET V 1 |
-| Identity | GET V 1 |
-| Liquidity | GET V 1 |
-| Pool | GET V 1 |
-| Trades | GET V 1 |
-| Metagraph | GET V 1 |
-| Validator | GET V 1, POST V 1 Post, GET V 2 |
-| Extrinsic | GET V 1 |
-| Miner | GET V 1 |
-| Network Parameter | GET V 1 |
-| Neuron | GET V 1 |
-| Otc | GET V 1, GET V 2 |
-| Coldkey Swap | GET V 1 |
-| Price | GET V 1 |
-| Proxy Call | GET V 1 |
-| Live | GET Account Balance Info, GET Block Get Range, GET Block Get Head, GET Block Get By Height, GET Block Raw Get By Height, GET Extrinsic Get By Block And Index, GET Pool Get, GET Version Info, GET Const Get All, GET Const Get By Id, GET Event Get All, GET Event Get By Id, GET Storage Get All, GET Storage Get By Id |
-| Rpc | POST Http, GET Ws |
-| Runtime Version | GET V 1 |
-| Seal Blob | POST V 1 |
-| Stake Balance | GET V 1 |
-| Stats | GET V 1 |
-| Status | GET V 1 |
-| Subnet | GET V 1 |
-| Transfer | GET V 1 |
+<details>
+<summary><b>Account</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Accounting</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Block</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Call</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Coingecko</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Delegation</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Dev Activity</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Dev Changelog</b> (1 operations)</summary>
+
+- Get Changelog
+
+</details>
+
+<details>
+<summary><b>Dtao</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Erc 20</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Conviction</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Contract Event</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Event</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Evm</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Exchange</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Hotkey</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Identity</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Liquidity</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Pool</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Trades</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Metagraph</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Validator</b> (3 operations)</summary>
+
+- Get v1
+- Post v1 Post
+- Get v2
+
+</details>
+
+<details>
+<summary><b>Extrinsic</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Miner</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Network Parameter</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Neuron</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Otc</b> (2 operations)</summary>
+
+- Get v1
+- Get v2
+
+</details>
+
+<details>
+<summary><b>Coldkey Swap</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Price</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Proxy Call</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Live</b> (14 operations)</summary>
+
+- Get Account Balance Info
+- Get Block Get Range
+- Get Block Get Head
+- Get Block Get By Height
+- Get Block Raw Get By Height
+- Get Extrinsic Get By Block And Index
+- Get Pool Get
+- Get Version Info
+- Get Const Get All
+- Get Const Get By ID
+- Get Event Get All
+- Get Event Get By ID
+- Get Storage Get All
+- Get Storage Get By ID
+
+</details>
+
+<details>
+<summary><b>RPC</b> (2 operations)</summary>
+
+- Post HTTP
+- Get Ws
+
+</details>
+
+<details>
+<summary><b>Runtime Version</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Seal Blob</b> (1 operations)</summary>
+
+- Post v1
+
+</details>
+
+<details>
+<summary><b>Stake Balance</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Stats</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Status</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Subnet</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
+
+<details>
+<summary><b>Transfer</b> (1 operations)</summary>
+
+- Get v1
+
+</details>
 
 ---
 

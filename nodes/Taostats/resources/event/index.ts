@@ -15,9 +15,9 @@ export const eventDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -43,7 +43,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -85,7 +85,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -109,7 +109,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -134,7 +134,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -159,7 +159,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -184,7 +184,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -209,7 +209,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -233,7 +233,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -257,7 +257,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -282,13 +282,13 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Extrinsic Id",
+			"displayName": "Extrinsic ID",
 			"name": "extrinsic_id",
 			"default": "",
 			"type": "string",
@@ -306,13 +306,13 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Call Id",
+			"displayName": "Call ID",
 			"name": "call_id",
 			"default": "",
 			"type": "string",
@@ -330,13 +330,13 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"default": "",
 			"type": "string",
@@ -354,7 +354,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -378,7 +378,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -402,7 +402,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -426,7 +426,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -478,19 +478,19 @@ export const eventDescription: INodeProperties[] = [
 					"value": "name_desc"
 				},
 				{
-					"name": "Id Asc",
+					"name": "ID Asc",
 					"value": "id_asc"
 				},
 				{
-					"name": "Id Desc",
+					"name": "ID Desc",
 					"value": "id_desc"
 				},
 				{
-					"name": "Extrinsic Id Asc",
+					"name": "Extrinsic ID Asc",
 					"value": "extrinsic_id_asc"
 				},
 				{
-					"name": "Extrinsic Id Desc",
+					"name": "Extrinsic ID Desc",
 					"value": "extrinsic_id_desc"
 				}
 			],
@@ -508,13 +508,13 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -533,7 +533,7 @@ export const eventDescription: INodeProperties[] = [
 						"Event"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}

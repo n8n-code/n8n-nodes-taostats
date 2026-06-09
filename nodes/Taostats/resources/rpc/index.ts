@@ -9,15 +9,15 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Http",
-					"value": "Http",
-					"action": "Http",
+					"name": "HTTP",
+					"value": "HTTP",
+					"action": "HTTP",
 					"description": "",
 					"routing": {
 						"request": {
@@ -52,10 +52,10 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
-						"Http"
+						"HTTP"
 					]
 				}
 			}
@@ -77,10 +77,10 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
-						"Http"
+						"HTTP"
 					]
 				}
 			}
@@ -112,16 +112,16 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
-						"Http"
+						"HTTP"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -137,10 +137,10 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
-						"Http"
+						"HTTP"
 					]
 				}
 			}
@@ -156,7 +156,7 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
 						"Ws"
@@ -183,7 +183,7 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
 						"Ws"
@@ -192,7 +192,7 @@ export const rpcDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -208,7 +208,7 @@ export const rpcDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Rpc"
+						"RPC"
 					],
 					"operation": [
 						"Ws"

@@ -8,7 +8,7 @@ import type {
 export class TaostatsApi implements ICredentialType {
 	name = 'N8nDevTaostatsApi';
 
-	displayName = 'taostats API';
+	displayName = 'Taostats API';
 
 	icon: Icon = { light: 'file:../nodes/Taostats/taostats.png', dark: 'file:../nodes/Taostats/taostats.dark.png' };
 
@@ -22,7 +22,7 @@ export class TaostatsApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your taostats API server',
+			description: 'The base URL of your Taostats API server',
 		},
 		{
 			displayName: 'API Key',

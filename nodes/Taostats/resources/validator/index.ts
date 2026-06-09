@@ -15,9 +15,9 @@ export const validatorDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -27,9 +27,9 @@ export const validatorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "V 1 Post",
-					"value": "V 1 Post",
-					"action": "V 1 Post",
+					"name": "v1 Post",
+					"value": "v1 Post",
+					"action": "v1 Post",
 					"description": "",
 					"routing": {
 						"request": {
@@ -39,9 +39,9 @@ export const validatorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "V 2",
-					"value": "V 2",
-					"action": "V 2",
+					"name": "v2",
+					"value": "v2",
+					"action": "v2",
 					"description": "",
 					"routing": {
 						"request": {
@@ -67,7 +67,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -91,13 +91,13 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -116,7 +116,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -135,7 +135,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -159,7 +159,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -183,7 +183,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -265,7 +265,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -289,7 +289,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -314,13 +314,13 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -339,7 +339,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 1 Post"
+						"v1 Post"
 					]
 				}
 			}
@@ -358,7 +358,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -383,7 +383,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -407,7 +407,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -431,7 +431,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -456,7 +456,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -481,7 +481,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -506,7 +506,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -531,7 +531,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -556,7 +556,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -580,7 +580,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -604,7 +604,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -646,13 +646,13 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -671,7 +671,7 @@ export const validatorDescription: INodeProperties[] = [
 						"Validator"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}

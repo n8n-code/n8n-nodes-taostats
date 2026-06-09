@@ -15,9 +15,9 @@ export const otcDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "V 1",
-					"value": "V 1",
-					"action": "V 1",
+					"name": "v1",
+					"value": "v1",
+					"action": "v1",
 					"description": "",
 					"routing": {
 						"request": {
@@ -27,9 +27,9 @@ export const otcDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "V 2",
-					"value": "V 2",
-					"action": "V 2",
+					"name": "v2",
+					"value": "v2",
+					"action": "v2",
 					"description": "",
 					"routing": {
 						"request": {
@@ -55,13 +55,13 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Listing Id",
+			"displayName": "Listing ID",
 			"name": "listing_id",
 			"default": "",
 			"type": "string",
@@ -79,7 +79,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -121,7 +121,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -145,7 +145,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -169,7 +169,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -193,7 +193,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -217,7 +217,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -241,7 +241,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -265,7 +265,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -289,7 +289,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -313,7 +313,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -337,7 +337,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -361,7 +361,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -403,13 +403,13 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -428,7 +428,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 1"
+						"v1"
 					]
 				}
 			}
@@ -447,13 +447,13 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Listing Id",
+			"displayName": "Listing ID",
 			"name": "listing_id",
 			"default": "",
 			"type": "string",
@@ -471,7 +471,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -513,7 +513,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -537,7 +537,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -561,7 +561,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -585,7 +585,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -609,7 +609,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -633,7 +633,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -657,7 +657,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -681,7 +681,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -705,7 +705,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -729,7 +729,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -753,7 +753,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
@@ -795,13 +795,13 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -820,7 +820,7 @@ export const otcDescription: INodeProperties[] = [
 						"Otc"
 					],
 					"operation": [
-						"V 2"
+						"v2"
 					]
 				}
 			}

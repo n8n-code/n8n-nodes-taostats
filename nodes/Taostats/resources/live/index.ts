@@ -123,9 +123,9 @@ export const liveDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Const Get By Id",
-					"value": "Const Get By Id",
-					"action": "Const Get By Id",
+					"name": "Const Get By ID",
+					"value": "Const Get By ID",
+					"action": "Const Get By ID",
 					"description": "",
 					"routing": {
 						"request": {
@@ -147,9 +147,9 @@ export const liveDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Event Get By Id",
-					"value": "Event Get By Id",
-					"action": "Event Get By Id",
+					"name": "Event Get By ID",
+					"value": "Event Get By ID",
+					"action": "Event Get By ID",
 					"description": "",
 					"routing": {
 						"request": {
@@ -171,9 +171,9 @@ export const liveDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Storage Get By Id",
-					"value": "Storage Get By Id",
-					"action": "Storage Get By Id",
+					"name": "Storage Get By ID",
+					"value": "Storage Get By ID",
+					"action": "Storage Get By ID",
 					"description": "",
 					"routing": {
 						"request": {
@@ -222,7 +222,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -316,7 +316,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -360,7 +360,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -421,7 +421,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -482,7 +482,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -560,7 +560,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -604,7 +604,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -648,7 +648,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -692,7 +692,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -709,7 +709,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -747,13 +747,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Const Get By Id"
+						"Const Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -764,13 +764,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Const Get By Id"
+						"Const Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": "",
@@ -781,13 +781,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Const Get By Id"
+						"Const Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -806,7 +806,7 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Const Get By Id"
+						"Const Get By ID"
 					]
 				}
 			}
@@ -831,7 +831,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -848,7 +848,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -886,13 +886,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Event Get By Id"
+						"Event Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -903,13 +903,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Event Get By Id"
+						"Event Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": "",
@@ -920,13 +920,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Event Get By Id"
+						"Event Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -945,7 +945,7 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Event Get By Id"
+						"Event Get By ID"
 					]
 				}
 			}
@@ -970,7 +970,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -987,7 +987,7 @@ export const liveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -1025,13 +1025,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Storage Get By Id"
+						"Storage Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Pallet Id",
+			"displayName": "Pallet ID",
 			"name": "pallet_id",
 			"required": true,
 			"default": "",
@@ -1042,13 +1042,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Storage Get By Id"
+						"Storage Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"default": "",
@@ -1059,13 +1059,13 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Storage Get By Id"
+						"Storage Get By ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Api Key API Key",
+			"displayName": "API Key API Key",
 			"name": "security_api_key",
 			"type": "string",
 			"default": "",
@@ -1084,7 +1084,7 @@ export const liveDescription: INodeProperties[] = [
 						"Live"
 					],
 					"operation": [
-						"Storage Get By Id"
+						"Storage Get By ID"
 					]
 				}
 			}
