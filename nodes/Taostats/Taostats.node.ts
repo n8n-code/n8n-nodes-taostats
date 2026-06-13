@@ -40,32 +40,32 @@ import { subnetDescription } from './resources/subnet';
 import { transferDescription } from './resources/transfer';
 
 export class Taostats implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Taostats',
-		name: 'N8nDevTaostats',
-		icon: { light: 'file:./taostats.png', dark: 'file:./taostats.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'TaoStats: Bittensor block explorer, analytics, staking, subnet discovery.',
-		defaults: { name: 'Taostats' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevTaostatsApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Taostats',
+                name: 'N8nDevTaostats',
+                icon: { light: 'file:./taostats.png', dark: 'file:./taostats.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'TaoStats: Bittensor block explorer, analytics, staking, subnet discovery.',
+                defaults: { name: 'Taostats' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevTaostatsApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -309,6 +309,6 @@ export class Taostats implements INodeType {
 		...statusDescription,
 		...subnetDescription,
 		...transferDescription
-		],
-	};
+                ],
+        };
 }
